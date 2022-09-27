@@ -40,6 +40,7 @@ namespace MyWPFApp.Telemetry
         private static void Application_Startup(object sender, System.Windows.StartupEventArgs e)
         {
             TrackEvent("AppStart");
+            //Comment
         }
 
         public static void TrackEvent(string eventName, IDictionary<string, string> properties = null, IDictionary<string, double> metrics = null)
